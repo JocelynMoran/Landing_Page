@@ -1,0 +1,70 @@
+/* Body styling */
+body {
+    background-color: #e0d7ca;
+}
+
+/* Heading title styling */
+#Headingtitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Custom navbar styling */
+.navbar.custom-navbar {
+    background-color: #8B4513 !important; /* Saddle Brown color */
+}
+
+.navbar.custom-navbar .nav-link, 
+.navbar.custom-navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar.custom-navbar .navbar-toggler-icon {
+    filter: invert(1); /* To make the icon white */
+}
+
+/* Main section styling */
+main {
+    margin: 20px 0;
+}
+
+main .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .col-md-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+
+main .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+/* Styling for the image to retain original size */
+.img-original {
+    width: auto;
+    height: auto;
+}
+
+main h2, main h3 {
+    margin-top: 15px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
